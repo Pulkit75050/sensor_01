@@ -4,12 +4,13 @@ import os
 
 
 AWS_S3_BUCKET_NAME = "wafer-fault"
-MANGO_DATABASE_NAME = "pwskills"
-MONGO_COLLECTION_NAME = "waferfault"
+MONGO_DATABASE_NAME = "PWSKILLS"
+MONGO_COLLECTION_NAME = "WAFERFAULT"
 
+artifacts_folder = "artifacts"
 
 TARGET_COLUMN = "quality"
-MONGO_DB_URL = "mongodb+srv://snshrivas:Snshrivas@cluster0.u64c4.mongodb.net/?retryWrites=true&w=majority"
+MONGO_DB_URL = "mongodb+srv://Pulkit123456:7505082898@cluster0.mgisu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
 MODEL_FILE_NAME = "model"
