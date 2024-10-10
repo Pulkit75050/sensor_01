@@ -2,7 +2,7 @@ import sys  # for talking to my python interpretator
 import os   # it deals with reading, viewing and saving file.
 import numpy as np
 import pandas as pd
-from pymongo import MongoClient  
+from pymongo import MongoClient   # type: ignore
 from zipfile import Path
 from src.constant import *
 from src.constant import MONGO_DATABASE_NAME
@@ -16,7 +16,7 @@ from dataclasses import dataclass # for storing information.
 
 @dataclass
 class DataIngestionConfig:
-    artifact_folder: str = os.path.join(artifacts_folder)
+    artifact_folder: str = os.path.join(artifact_folder)
 
 
 class DataIngestion:
